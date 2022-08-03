@@ -1,0 +1,22 @@
+package com.spring.literal.constructorinjection;
+
+import java.util.ArrayList;
+
+public class Person {
+	
+	private double money;
+
+	public Person(double money) {
+		this.money = money;
+	}
+
+	public double getMoney() {
+		return money;
+	}
+
+	public void setMoney(double money) {
+		this.money = money;
+	}
+	
+}
+

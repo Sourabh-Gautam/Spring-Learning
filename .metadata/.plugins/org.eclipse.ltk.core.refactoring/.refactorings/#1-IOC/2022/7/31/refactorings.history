@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;#1-IOC/src/com/paulspring/ioc1/cofig.xml&apos; to &apos;config.xml&apos;" description="Rename resource &apos;cofig.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/paulspring/ioc1/cofig.xml" name="config.xml" stamp="1659041897876" updateReferences="true"/>
+</session>

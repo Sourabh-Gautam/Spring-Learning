@@ -1,0 +1,11 @@
+package com.spring.sorting;
+
+public class HeapSort implements Sorting {
+
+	@Override
+	public void sort() {
+		// TODO Auto-generated method stub
+		System.out.println("Sorted through HeapSort");
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.paulspring.ioc1;
+
+public class Mobile {
+
+	public static void main(String[] args) {
+		Airtel airtel = new Airtel();
+		airtel.calling();
+		airtel.internet();
+	}
+
+}

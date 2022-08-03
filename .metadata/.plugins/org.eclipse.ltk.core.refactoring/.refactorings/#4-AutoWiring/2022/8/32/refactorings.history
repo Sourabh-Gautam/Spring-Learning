@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;com.xml.autowiring.Person.heart&apos; in &apos;com.xml.autowiring.Person&apos;&#x0D;&#x0A;- Original project: &apos;#4-AutoWiring&apos;&#x0D;&#x0A;- Original element: &apos;com.xml.autowiring.Person.heart&apos;&#x0D;&#x0A;- Setter method name: &apos;setHeart&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;heart&apos;" flags="589830" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;com.xml.autowiring{Person.java[Person^heart" insertion="-1" setter="setHeart" stamp="1659346070156" version="1.0" visibility="1"/>
+</session>
