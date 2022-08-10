@@ -10,6 +10,7 @@ public class Mobile {
 		Sim sim = context.getBean("sim", Sim.class);
 		sim.calling();
 		sim.internet();
+		((ClassPathXmlApplicationContext)context).close();
 	}
 
 }

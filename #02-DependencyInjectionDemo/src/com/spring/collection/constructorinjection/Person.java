@@ -4,19 +4,14 @@ import java.util.ArrayList;
 
 public class Person {
 	
-	private double money;
-	private Air air;
 	private ArrayList<String> friends;
 
-	public Person() {
+	public Person(ArrayList<String> friends) {
+		this.friends = friends;
 	}
-
-	public double getMoney() {
-		return money;
-	}
-
-	public void setMoney(double money) {
-		this.money = money;
+	
+	public ArrayList<String> getFriends() {
+		return friends;
 	}
 	
 }

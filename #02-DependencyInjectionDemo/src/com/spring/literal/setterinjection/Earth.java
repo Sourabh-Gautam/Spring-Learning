@@ -8,5 +8,6 @@ public class Earth {
 		ApplicationContext context = new ClassPathXmlApplicationContext("com/spring/literal/setterinjection/config.xml");
 		Person p = context.getBean("person", Person.class);
 		System.out.println(p.getMoney());
+		((ClassPathXmlApplicationContext)context).close();
 	}
 }

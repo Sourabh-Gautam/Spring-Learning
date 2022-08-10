@@ -1,23 +1,16 @@
 package com.spring.object.constructorinjection;
 
-import java.util.ArrayList;
-
 public class Person {
 	
-	private double money;
 	private Air air;
-	private ArrayList<String> friends;
 
-	public Person() {
+	public Person(Air air) {
+		this.air = air;
 	}
 
-	public double getMoney() {
-		return money;
+	public Air getAir() {
+		return air;
 	}
 
-	public void setMoney(double money) {
-		this.money = money;
-	}
-	
 }
 

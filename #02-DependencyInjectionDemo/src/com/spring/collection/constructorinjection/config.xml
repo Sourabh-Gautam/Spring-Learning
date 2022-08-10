@@ -4,8 +4,14 @@
 	xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="person" class="com.spring.literal.setterinjection.Person" >
-		<property name="money" value="5000"/>
+	<bean id="person" class="com.spring.collection.constructorinjection.Person" >
+		<constructor-arg name="friends" >
+			<list>
+				<value>Sumit</value>
+				<value>Yogi</value>
+				<value>Rahul</value>
+			</list>
+		</constructor-arg>
 	</bean>
 	
 </beans>

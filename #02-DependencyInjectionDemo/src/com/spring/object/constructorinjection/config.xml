@@ -4,8 +4,9 @@
 	xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="person" class="com.spring.literal.setterinjection.Person" >
-		<property name="money" value="5000"/>
+	<bean id="air" class="com.spring.object.constructorinjection.Air" />
+	<bean id="person" class="com.spring.object.constructorinjection.Person" >
+		<constructor-arg name="air" ref="air"/>
 	</bean>
 	
 </beans>
