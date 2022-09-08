@@ -1,0 +1,37 @@
+Steps to creating a fresh new Maven Project:
+
+Step 1 : Press alt+shift+N
+
+Step 2 : Find maven project. If not available in the list just click on "Other" and search for it.
+
+Step 3 : Once you have chose Maven project. The first window will ask you location on which you want to save this project. Stay it default and click on next.
+
+Step 4 : In this step, you need to choose "Catalog" and "Archetype".
+
+Catalog : Internal
+Archetype : Group Id ( org.apache.maven.archetypes ), Artifact Id ( maven-archtype-quickstart ), Version ( 1.1 )
+
+Step 5 : After click on next, you will be asked for Group Id and Artifact Id.
+
+Group Id : It is the company name in reverse order like com.amazon
+Artifact Id : It is nothing but your project name.
+
+For more details about naming convention follow - https://maven.apache.org/guides/mini/guide-naming-conventions.html
+
+Stpe 6 : When you click on finish, you have to wait for few minutes until eclipse download the mentioned configuration file for maven project.
+
+
+Three Quick Fixes while creating a maven project.
+
+1.) Error : Cannot find the declaration of element 'project'
+
+    To fix problem just replace http by https in project tag as shown below.
+    <project xmlns="https://maven.apache.org/POM/4.0.0"
+   
+2.) Warning : The compiler compliance specified is 1.6 but a JRE 1.8 is used
+
+    You project / Properties / Java Compiler / Choose compiler compliance as JRE 1.8
+   
+3.) Warning : Build path specifies execution environment J2SE-1.5. There are no JREs installed in the workspace that are strictly compatible with this environment.
+
+    Right click on project / Build / Configure Build Path / Libraries / JRE System Library / Default

@@ -9,6 +9,7 @@ public class Person {
 	}
 	
 //	public void setHeart(Heart heart) {
+//		System.out.println("setter");
 //		this.heart = heart;
 //	}
 	
