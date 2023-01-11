@@ -1,8 +1,8 @@
-package com.lc.config;
+package demoproject;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-public class LCApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
+public class Config extends AbstractAnnotationConfigDispatcherServletInitializer {
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
@@ -12,7 +12,7 @@ public class LCApplicationInitializer extends AbstractAnnotationConfigDispatcher
 
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
-		Class[] config = {LoveCalAppConfig.class};
+		Class[] config = {AppConfig.class};
  		return config;
 	}
 
